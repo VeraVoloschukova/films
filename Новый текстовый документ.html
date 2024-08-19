@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список фильмов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Список</header>
+    <form id="form">
+        <input id="name" type="text" placeholder="название фильма" required>
+        <input id="img" type="text" placeholder="URL картинки" required>
+        <input id="link" type="text" placeholder="ссылка на сайт" required>
+        <input id="genre" type="text" placeholder="жанр" required>
+        <input id="raiting" type="number" placeholder="оценка" required>
+        <button id="button" class="add" type="submit">Добавить</button>
+    </form>
+    
+        <H2>фильтр по жанрам</H2>
+    <select >
+        <option >все жанры</option>
+        <option >комедия</option>
+        <option >хоррор</option>
+        
+    </select>
+    <div class="list" id="list"></div>
+    
+    <script src="script.js"></script>    
+</body>
+</html>

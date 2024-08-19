@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+div{
+    background: rgb(72, 72, 73);
+    padding: 20px;
+    width: 210px;
+    color:rgb(211, 211, 18);
+    font-size: 24px;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+}
+.list{
+    padding: 0;
+    margin: 0;
+    width:auto;
+    background: transparent;
+}
+img {
+    width: 200px;
+}
+H4{
+    color:rgb(211, 211, 18);
+    font-size: 24px;
+    margin: 5px;
+
+}
+header{
+    padding: 50px;
+    margin:0px 0px 50px;
+    background: rgb(72, 72, 73);
+    text-align: center;
+    color:rgb(224, 235, 228);
+    font-size: 24px;
+}
+input{
+    margin: 10px auto 10px auto;
+    padding: 5px 20px;
+    font-size: 18px;
+    display: block;
+    border: 3px solid brown;
+}
+.add{
+    width:263px;
+    height:31px;
+    margin: 5px auto 20px auto;
+    font-size: 18px;
+    background: #c7e907;
+    display: block;
+        
+}
+.add:active {
+    background: #092bc2;
+    height:50px ;
+    width:320px ;
+}
+.del{
+    width:200px;
+    height:31px;
+    margin: 5px auto 20px auto;
+    font-size: 18px;
+    background: #d43751;
+    display: block;
+        
+}
+.del:active {
+    background: #bfc209;
+    
+}
+a{
+    color: #bfc209;
+    text-align: center;
+    display: block;
+}
+H2{
+    text-align: center;
+}
+select{
+    margin: 5px auto 20px auto;
+    display: block;
+}
+p{
+    margin: 0;
+    text-align: center;
+}
