@@ -40,6 +40,14 @@ input{
     display: block;
     border: 3px solid brown;
 }
+input[type="number"]{
+    margin: 10px auto 10px auto;
+    padding: 5px 20px;
+    font-size: 18px;
+    display: block;
+    border: 3px solid brown;
+    width: 219px;
+}
 .add{
     width:263px;
     height:31px;
